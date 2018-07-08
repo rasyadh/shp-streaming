@@ -9,16 +9,23 @@ from flask import (
 from project import app
 
 main = Blueprint('main', __name__)
-GEOJSON_PATH = app.root_path + '\\static\geojson\\'
+GEOJSON_PATH = app.root_path + '/static/geojson/'
 
 @main.route('/')
 @main.route('/index')
 @main.route('/peta/')
 def index():
-    geojson = [f for f in os.listdir(GEOJSON_PATH) if os.path.isfile(os.path.join(GEOJSON_PATH, f))]
+    default_geojson, geojson = [], []
+    
+    for f in os.listdir(GEOJSON_PATH):
+        if os.path.isfile(os.path.join(GEOJSON_PATH, f)):
+            if f == 'Surabaya.json' or f == 'KecamatanSurabaya.json':
+                default_geojson.append(f)
+            else:
+                geojson.append(f)
     geojson.sort(reverse=True)
 
-    return render_template('index.html', geojson=geojson)
+    return render_template('index.html', default=default_geojson, geojson=geojson)
 
 @main.route('/geodata/<string:geo>')
 def geodata(geo):

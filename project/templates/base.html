@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}" />
-    <title>Kantor Pos Surabaya</title>
+    <title>Shapefiles Streaming Surabaya</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
         crossorigin="" />
@@ -23,8 +23,9 @@
         <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item" href="/">
-                    <h1 class="title is-5 has-text-white">
-                        Kantor Pos Surabaya
+                    <img class="image" src="{{ url_for('static', filename='favicon.png') }}" alt="Logo">
+                    <h1 class="title is-5 has-text-white" style="margin-left: 0.5em;">
+                        Shapefiles Streaming Surabaya
                     </h1>
                 </a>
                 <div class="navbar-burger burger" data-target="menu">
@@ -55,14 +56,13 @@
             <div class="level">
                 <div class="level-left">
                     <div class="level-item">
-                        &copy; 2018, Kantor Pos Surabaya
+                        &copy; 2018, Shapefiles Streaming Surabaya
                     </div>
                 </div>
                 <div class="level-right">
                     <div class="level-item">
                         <p>
-                            <strong>Kantor Pos Surabaya</strong> by
-                            <a href="github.com/rasyadh">Rasyadh Abdul Aziz</a>
+                            <strong>Gravicodev</strong>
                         </p>
                     </div>
                 </div>

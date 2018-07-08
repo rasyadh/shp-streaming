@@ -5,6 +5,8 @@
 <section class="section">
     <div class="container">
         <h1 class="title">Data Peta</h1>
+        <button class="button is-info" id="upload-data">Upload Data</button>
+        <br><br>
         <table class="table is-fullwidth">
             <thead>
                 <tr>
@@ -41,8 +43,93 @@
     </div>
 </section>
 
+<div class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title">Upload Data</p>
+            <button class="delete" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+            <form class="form" method="POST" action="/data_peta/upload_data" enctype="multipart/form-data">
+                <div class="field">
+                    <label class="label">File Shp</label>
+                    <div class="control">
+                        <div class="file has-name">
+                            <label class="file-label">
+                                <input class="file-input" type="file" name="shp" id="shp">
+                                <span class="file-cta">
+                                    <span class="file-icon">
+                                        <i class="fas fa-upload"></i>
+                                    </span>
+                                    <span class="file-label">
+                                        Pilih file…
+                                    </span>
+                                </span>
+                                <span class="file-name" id="file-name-shp">
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="field">
+                    <label class="label">File Dbf</label>
+                    <div class="control">
+                        <div class="file has-name">
+                            <label class="file-label">
+                                <input class="file-input" type="file" name="dbf" id="dbf">
+                                <span class="file-cta">
+                                    <span class="file-icon">
+                                        <i class="fas fa-upload"></i>
+                                    </span>
+                                    <span class="file-label">
+                                        Pilih file…
+                                    </span>
+                                </span>
+                                <span class="file-name" id="file-name-dbf">
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="field">
+                    <div class="control">
+                        <input type="submit" class="button is-info is-fullwidth" value="Upload File">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+
 <script>
+    let file_shp = document.getElementById('shp');
+    let file_dbf = document.getElementById('dbf');
+
     $(() => {
+        file_shp.onchange = (() => {
+            if (file_shp.files.length > 0) {
+                document.getElementById('file-name-shp').innerHTML = file_shp.files[0].name;
+            }
+        });
+
+        file_dbf.onchange = (() => {
+            if (file_dbf.files.length > 0) {
+                document.getElementById('file-name-dbf').innerHTML = file_dbf.files[0].name;
+            }
+        });
+
+        $('#upload-data').click(() => {
+            $('.modal').addClass('is-active');
+        });
+
+        $('.delete, .modal-background').click(() => {
+            $('.modal').removeClass('is-active');
+            $('#shp, #dbf, #file-name-shp, #file-name-dbf').empty();
+        });
+
         showGeoJSON = ((geojson) => {
             window.open('/data_peta/' + geojson, '_blank');
         });

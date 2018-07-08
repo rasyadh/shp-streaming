@@ -12,8 +12,8 @@ def Shapefile2GeoJSON(SHP_PATH):
         geom = sr.shape.__geo_interface__
         buffer.append(dict(type="Feature", geometry=geom, properties=atr)) 
 
-    data = SHP_PATH.split('shapefiles\\')
-    DEST_GEO_PATH = data[0] + 'geojson\\' + data[1].split('.shp')[0] + '.json'
+    data = SHP_PATH.split('shapefiles/')
+    DEST_GEO_PATH = data[0] + 'geojson/' + data[1].split('.shp')[0] + '.json'
 
     geojson = open(DEST_GEO_PATH, "w")
     geojson.write(json.dumps({"type": "FeatureCollection", "features": buffer}, indent=2) + "\n")

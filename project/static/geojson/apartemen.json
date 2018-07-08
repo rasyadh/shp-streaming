@@ -1,0 +1,905 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7960309,
+          -7.272275500000001
+        ]
+      },
+      "properties": {
+        "Field1": "Apartment Grand Dharmahusada Lagoon",
+        "Field2": 112.7960309,
+        "Field3": -7.2722755
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7688515,
+          -7.289942599999999
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen Gunawangsa Manyar",
+        "Field2": 112.7688515,
+        "Field3": -7.2899426
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6923313,
+          -7.279090399999999
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen Puncak Permai Surabaya",
+        "Field2": 112.6923313,
+        "Field3": -7.2790904
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7375244,
+          -7.338278300000001
+        ]
+      },
+      "properties": {
+        "Field1": "High Point Serviced Apartment",
+        "Field2": 112.7375244,
+        "Field3": -7.3382783
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7055567,
+          -7.292225200000001
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen Pavilion Permata Tower 1",
+        "Field2": 112.7055567,
+        "Field3": -7.2922252
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7874084,
+          -7.2880451
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen Puncak Kertajaya",
+        "Field2": 112.7874084,
+        "Field3": -7.2880451
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.675116,
+          -7.287944
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen Supermall Mansion : Tanglin Tower - Orchard Tower",
+        "Field2": 112.675116,
+        "Field3": -7.287944
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6753229,
+          -7.2874775
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen Tanglin Mansion",
+        "Field2": 112.6753229,
+        "Field3": -7.2874775
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7862292,
+          -7.2842503
+        ]
+      },
+      "properties": {
+        "Field1": "Puncak Kertajaya",
+        "Field2": 112.7862292,
+        "Field3": -7.2842503
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7490384,
+          -7.265936199999999
+        ]
+      },
+      "properties": {
+        "Field1": "Trillium Residence",
+        "Field2": 112.7490384,
+        "Field3": -7.2659362
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.770776,
+          -7.338621999999999
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen Menara Rungkut",
+        "Field2": 112.770776,
+        "Field3": -7.338622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.749526,
+          -7.268899
+        ]
+      },
+      "properties": {
+        "Field1": "Sumatra 36 Apartment",
+        "Field2": 112.749526,
+        "Field3": -7.268899
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7859083,
+          -7.288980100000001
+        ]
+      },
+      "properties": {
+        "Field1": "Cosmopolis Apartement",
+        "Field2": 112.7859083,
+        "Field3": -7.2889801
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6749607,
+          -7.288281100000001
+        ]
+      },
+      "properties": {
+        "Field1": "Supermall Mansion Apartement",
+        "Field2": 112.6749607,
+        "Field3": -7.2882811
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7154026,
+          -7.291858
+        ]
+      },
+      "properties": {
+        "Field1": "Java Paragon Hotel & Residence",
+        "Field2": 112.7154026,
+        "Field3": -7.291858
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6851888,
+          -7.2842928
+        ]
+      },
+      "properties": {
+        "Field1": "Puri Matahari",
+        "Field2": 112.6851888,
+        "Field3": -7.2842928
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.809881,
+          -7.2587094
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen East Coast",
+        "Field2": 112.809881,
+        "Field3": -7.2587094
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7065787,
+          -7.2893915
+        ]
+      },
+      "properties": {
+        "Field1": "Lagoon Avenue Sungkono",
+        "Field2": 112.7065787,
+        "Field3": -7.2893915
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7046863,
+          -7.278175900000001
+        ]
+      },
+      "properties": {
+        "Field1": "Apartement Puri Darmo",
+        "Field2": 112.7046863,
+        "Field3": -7.2781759
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.807278,
+          -7.272151999999999
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen Educity",
+        "Field2": 112.807278,
+        "Field3": -7.272152
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7025536,
+          -7.309005199999999
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen Puncak CBD",
+        "Field2": 112.7025536,
+        "Field3": -7.3090052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7811646,
+          -7.279009199999999
+        ]
+      },
+      "properties": {
+        "Field1": "Kantor Marketing Guna Wangsa Apartment Manyar",
+        "Field2": 112.7811646,
+        "Field3": -7.2790092
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7379143,
+          -7.261910200000001
+        ]
+      },
+      "properties": {
+        "Field1": "One Icon Residence",
+        "Field2": 112.7379143,
+        "Field3": -7.2619102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7157217,
+          -7.254827799999999
+        ]
+      },
+      "properties": {
+        "Field1": "Gunawangsa Tidar",
+        "Field2": 112.7157217,
+        "Field3": -7.2548278
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7461549,
+          -7.276002
+        ]
+      },
+      "properties": {
+        "Field1": "The 100 Residence",
+        "Field2": 112.7461549,
+        "Field3": -7.276002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6840755,
+          -7.2834894
+        ]
+      },
+      "properties": {
+        "Field1": "Puncak Bukit Golf",
+        "Field2": 112.6840755,
+        "Field3": -7.2834894
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7209771,
+          -7.293934199999999
+        ]
+      },
+      "properties": {
+        "Field1": "The Voil\u00e0 Apartment",
+        "Field2": 112.7209771,
+        "Field3": -7.2939342
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7393808,
+          -7.261487199999999
+        ]
+      },
+      "properties": {
+        "Field1": "The Peak Apartment",
+        "Field2": 112.7393808,
+        "Field3": -7.2614872
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7811706,
+          -7.2801293
+        ]
+      },
+      "properties": {
+        "Field1": "One East Residence apartment",
+        "Field2": 112.7811706,
+        "Field3": -7.2801293
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7299703,
+          -7.331204
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen Papilio",
+        "Field2": 112.7299703,
+        "Field3": -7.331204
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.745806,
+          -7.288925099999999
+        ]
+      },
+      "properties": {
+        "Field1": "The Linden",
+        "Field2": 112.745806,
+        "Field3": -7.2889251
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6905087,
+          -7.271912899999999
+        ]
+      },
+      "properties": {
+        "Field1": "Graha Residen Serviced Apartments",
+        "Field2": 112.6905087,
+        "Field3": -7.2719129
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6322098,
+          -7.285335099999999
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen UC",
+        "Field2": 112.6322098,
+        "Field3": -7.2853351
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7587235,
+          -7.319951400000001
+        ]
+      },
+      "properties": {
+        "Field1": "Metropolis Apartement",
+        "Field2": 112.7587235,
+        "Field3": -7.3199514
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.8190082,
+          -7.268473200000001
+        ]
+      },
+      "properties": {
+        "Field1": "Sewa Harian Apartemen East Coast Surabaya",
+        "Field2": 112.8190082,
+        "Field3": -7.2684732
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6852001,
+          -7.284293999999999
+        ]
+      },
+      "properties": {
+        "Field1": "Puri Matahari Residence, Prestigious Residential Apartement",
+        "Field2": 112.6852001,
+        "Field3": -7.284294
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.781203,
+          -7.3095076
+        ]
+      },
+      "properties": {
+        "Field1": "Bale Hinggil",
+        "Field2": 112.781203,
+        "Field3": -7.3095076
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7375083,
+          -7.338806999999999
+        ]
+      },
+      "properties": {
+        "Field1": "Apartement Petra Square",
+        "Field2": 112.7375083,
+        "Field3": -7.338807
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.781534,
+          -7.311518499999999
+        ]
+      },
+      "properties": {
+        "Field1": "Gunawangsa Merr Apartment",
+        "Field2": 112.781534,
+        "Field3": -7.3115185
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7026811,
+          -7.309561100000001
+        ]
+      },
+      "properties": {
+        "Field1": "Puncak CBD",
+        "Field2": 112.7026811,
+        "Field3": -7.3095611
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7851383,
+          -7.250281800000001
+        ]
+      },
+      "properties": {
+        "Field1": "The Arundaya Surabaya",
+        "Field2": 112.7851383,
+        "Field3": -7.2502818
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7375106,
+          -7.3387555
+        ]
+      },
+      "properties": {
+        "Field1": "The Square Aparteman",
+        "Field2": 112.7375106,
+        "Field3": -7.3387555
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7489845,
+          -7.315174099999998
+        ]
+      },
+      "properties": {
+        "Field1": "Puncak Marina",
+        "Field2": 112.7489845,
+        "Field3": -7.3151741
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.78535,
+          -7.333329000000001
+        ]
+      },
+      "properties": {
+        "Field1": "Marketing Gallery Apartemen Puri City",
+        "Field2": 112.78535,
+        "Field3": -7.333329
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7402726,
+          -7.3327303
+        ]
+      },
+      "properties": {
+        "Field1": "Madison Avenue Apartment",
+        "Field2": 112.7402726,
+        "Field3": -7.3327303
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.8121568,
+          -7.2900133
+        ]
+      },
+      "properties": {
+        "Field1": "Apartment Dian Regency",
+        "Field2": 112.8121568,
+        "Field3": -7.2900133
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7301396,
+          -7.3312216
+        ]
+      },
+      "properties": {
+        "Field1": "Tamansari Papilio",
+        "Field2": 112.7301396,
+        "Field3": -7.3312216
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.728666,
+          -7.338717
+        ]
+      },
+      "properties": {
+        "Field1": "The Trans Icon Surabaya",
+        "Field2": 112.728666,
+        "Field3": -7.338717
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7686554,
+          -7.280288799999999
+        ]
+      },
+      "properties": {
+        "Field1": "Grand Shamaya",
+        "Field2": 112.7686554,
+        "Field3": -7.2802888
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.666482,
+          -7.283474500000001
+        ]
+      },
+      "properties": {
+        "Field1": "apartemen sambikerep surabaya",
+        "Field2": 112.666482,
+        "Field3": -7.2834745
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7192792,
+          -7.293835999999999
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen VIA And Vue Ciputra World",
+        "Field2": 112.7192792,
+        "Field3": -7.293836
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.8015175,
+          -7.278878799999999
+        ]
+      },
+      "properties": {
+        "Field1": "Eastcovia Apartment",
+        "Field2": 112.8015175,
+        "Field3": -7.2788788
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7389969,
+          -7.3365139
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen High Point Petra",
+        "Field2": 112.7389969,
+        "Field3": -7.3365139
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.70702,
+          -7.282331999999999
+        ]
+      },
+      "properties": {
+        "Field1": "The Grand Stand Apartment",
+        "Field2": 112.70702,
+        "Field3": -7.282332
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6835365,
+          -7.2836652
+        ]
+      },
+      "properties": {
+        "Field1": "Apartemen Puncak Bukit Golf Tower A",
+        "Field2": 112.6835365,
+        "Field3": -7.2836652
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6725022,
+          -7.293305699999999
+        ]
+      },
+      "properties": {
+        "Field1": "Waterplace Residence F Tower",
+        "Field2": 112.6725022,
+        "Field3": -7.2933057
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7707355,
+          -7.338750800000001
+        ]
+      },
+      "properties": {
+        "Field1": "BiZ Square Apartment",
+        "Field2": 112.7707355,
+        "Field3": -7.3387508
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6817863,
+          -7.283359399999999
+        ]
+      },
+      "properties": {
+        "Field1": "Adhiwangsa Golf Residence Apartment",
+        "Field2": 112.6817863,
+        "Field3": -7.2833594
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.6768494,
+          -7.3214919
+        ]
+      },
+      "properties": {
+        "Field1": "Royal Cityloft, Royal Residence",
+        "Field2": 112.6768494,
+        "Field3": -7.3214919
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.672525,
+          -7.291284000000001
+        ]
+      },
+      "properties": {
+        "Field1": "Waterplace Residence A Tower",
+        "Field2": 112.672525,
+        "Field3": -7.291284
+      }
+    }
+  ]
+}

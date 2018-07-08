@@ -11,6 +11,9 @@
                     <hr> {% for geo in geojson %}
                     <button class="button is-light" id="{{ geo }}" onclick="renderGeoData('{{geo}}')" style="margin-bottom: 0.5em;">{{ geo }}</button>
                     {% endfor %}
+                    <hr> {% for defgeo in default %}
+                    <button class="button is-light" id="{{ defgeo }}" onclick="renderGeoData('{{defgeo}}')" style="margin-bottom: 0.5em;">{{ defgeo }}</button>
+                    {% endfor %}
                 </div>
             </div>
             <div class="column">

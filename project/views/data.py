@@ -5,14 +5,18 @@ from flask import (
     render_template,
     redirect,
     url_for,
-    jsonify
+    jsonify,
+    request
 )
+from werkzeug.utils import secure_filename
 from project import app
 from project.lib.shp2geojson import Shapefile2GeoJSON
 
 data = Blueprint('data', __name__)
-SHAPEFILES_PATH = app.root_path + '\\static\shapefiles\\'
-GEOJSON_PATH = app.root_path + '\\static\geojson\\'
+SHAPEFILES_PATH = app.root_path + '/static/shapefiles/'
+GEOJSON_PATH = app.root_path + '/static/geojson/'
+app.config['UPLOAD_FOLDER'] = SHAPEFILES_PATH
+ALLOWED_EXTENSIONS = set(['shp', 'dbf'])
 
 @data.route('/data_peta/')
 def index():
@@ -49,3 +53,26 @@ def show_geojson(geojson):
         output.close()
     
     return jsonify(data)
+
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+@data.route('/data_peta/upload_data', methods=['POST'])
+def upload_data():
+    if request.method == 'POST':
+        try:
+            file_shp = request.files['shp']
+            file_dbf = request.files['dbf']
+
+            if file_shp and allowed_file(file_shp.filename) and file_dbf and allowed_file(file_dbf.filename):
+                filename_shp = secure_filename(file_shp.filename)
+                filename_dbf = secure_filename(file_dbf.filename)
+
+                file_shp.save(os.path.join(app.config['UPLOAD_FOLDER'], filename_shp))
+                file_dbf.save(os.path.join(app.config['UPLOAD_FOLDER'], filename_dbf))
+        except Exception as e:
+            print(e)
+
+        return redirect(url_for('data.index'))
+
+    return redirect(url_for('data.index'))

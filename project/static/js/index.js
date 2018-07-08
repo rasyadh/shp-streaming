@@ -1,7 +1,7 @@
 const BASECOORDS = [-7.2575, 112.7521];
 const accessToken = 'pk.eyJ1IjoicmFzeWFkaCIsImEiOiJjampibXNxYXUwaW9uM2txazhkdWpoZGZqIn0.IgA6jETECG2wKFy3O6tW6A';
 let mymap = L.map('llmap').setView(BASECOORDS, 12);
-let activeLayer = {};
+let defaultActiveLayer = {};
 
 const makeMap = (() => {
     let TILE_URL = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
@@ -13,10 +13,7 @@ const makeMap = (() => {
 });
 
 const onEachFeature = ((feature, layer) => {
-    if (feature.properties && feature.properties.Shape_Area) {
-        layer.bindPopup(`${feature.properties.Nama_Kanto}<br>Area: ${feature.properties.Shape_Area}<br>Leng: ${feature.properties.Shape_Leng}`);
-    }
-    else if (feature.properties && feature.properties.KABKOT && feature.properties.PROVINSI) {
+    if (feature.properties && feature.properties.KABKOT && feature.properties.PROVINSI) {
         layer.bindPopup(`${feature.properties.KABKOT}<br>${feature.properties.PROVINSI}`);
     }
     else if (feature.properties && feature.properties.KECAMATAN) {
@@ -28,9 +25,9 @@ const onEachFeature = ((feature, layer) => {
 });
 
 const renderGeoData = ((geo) => {
-    if (activeLayer.hasOwnProperty(geo)) {
-        mymap.removeLayer(activeLayer[geo]);
-        delete activeLayer[geo];
+    if (defaultActiveLayer.hasOwnProperty(geo)) {
+        mymap.removeLayer(defaultActiveLayer[geo]);
+        delete defaultActiveLayer[geo];
 
         document.getElementById(geo).classList.remove("is-info");
         document.getElementById(geo).classList.add("is-light");
@@ -43,11 +40,8 @@ const renderGeoData = ((geo) => {
                 case "Surabaya":
                     style = { "color": "#58ff2e" };
                     break;
-                case "KantorPosBuff":
-                    style = { "color": "#ff6868" };
-                    break;
                 case "KecamatanSurabaya":
-                    style = { "color": "#0a8602"};
+                    style = { "color": "#ff6868" };
                     break;
                 default:
                     style = {};
@@ -60,7 +54,7 @@ const renderGeoData = ((geo) => {
             });
 
             mymap.addLayer(layer);
-            activeLayer[geo] = layer;
+            defaultActiveLayer[geo] = layer;
         });
 
         document.getElementById(geo).classList.remove("is-light");

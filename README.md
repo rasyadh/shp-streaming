@@ -1,10 +1,10 @@
-# PostOfficeSub Map<br>
-Post Office Mapping in Surabaya.<br>
+# SHP Streaming<br>
+Shapefile Streaming Surabaya.<br>
 
 ![PostOfficeSub Map](https://raw.githubusercontent.com/rasyadh/postofficesub-map/master/project/static/Kantor%20Pos%20Surabaya.png)
 
 ## Description
-this app is used to show mapping location of Post Office in Surabaya. The map technology used in this application uses a leaflet map. Using GeoJSON data to represent objects on maps obtained from Shapefile conversion results.
+this app is used to show some particular location in Surabaya. The map technology used in this application uses a leaflet map. Using GeoJSON data to represent objects on maps obtained from Shapefile conversion results.
 
 ## Platform
 this application runs on a web platform by utilizing several technologies of web technology and GIS.
