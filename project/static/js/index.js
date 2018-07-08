@@ -20,7 +20,7 @@ const onEachFeature = ((feature, layer) => {
         layer.bindPopup(`${feature.properties.KECAMATAN}<br>${feature.properties.KABKOT}<br>Area: ${feature.properties.SHAPE_Area}, Leng: ${feature.properties.SHAPE_Leng}`);
     }
     else {
-        layer.bindPopup(`${feature.properties.Nama_Kanto}<br>${feature.properties.Alamat}<br>Lat: ${feature.properties.Latitude}, Long: ${feature.properties.Longtitude}`);
+        layer.bindPopup(`${feature.properties.Nama}<br>Lat: ${feature.properties.Latitude}, Long: ${feature.properties.Longitude}`);
     }
 });
 

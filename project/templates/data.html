@@ -16,6 +16,7 @@
                         <th>Nama Data</th>
                         <th>Konversi Shp ke GeoJSON</th>
                         <th>GeoJSON</th>
+                        <th>Edit</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -38,6 +39,9 @@
                             <button class="button is-info" disabled>Tampilkan GeoJSON</button>
                         </td>
                         {% endif %}
+                        <td>
+                            <a class="button is-danger" href="/data_peta/hapus/{{ res.shp }}">Hapus Data</a>
+                        </td>
                     </tr>
                     {% endfor %}
                 </tbody>

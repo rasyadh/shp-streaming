@@ -76,3 +76,14 @@ def upload_data():
         return redirect(url_for('data.index'))
 
     return redirect(url_for('data.index'))
+
+@data.route('/data_peta/hapus/<string:shp>')
+def delete_data(shp):
+    try :
+        os.remove(SHAPEFILES_PATH + shp)
+        os.remove(SHAPEFILES_PATH + shp.split('.')[0] + '.dbf')
+        os.remove(GEOJSON_PATH + shp.split('.')[0] + '.json')
+    except Exception as e:
+        print(e)
+
+    return redirect(url_for('data.index'))

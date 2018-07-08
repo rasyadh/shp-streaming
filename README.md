@@ -17,6 +17,9 @@ this application runs on a web platform by utilizing several technologies of web
 ## Map
 [Leaflet](https://leafletjs.com/)
 
+## Map File
+Upload file .shp and .dbf
+
 ## How to launch the app
 1. Install all dependencies `pip install -r requirements.txt`
 2. Run `python run.py` at root directory

@@ -12,20 +12,20 @@
       },
       "properties": {
         "OID_": 1,
-        "Nama_Kanto": "Kantor Pos Sukolilo",
         "Kode_Kanto": "60111A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Wisma Permai l/161",
         "Nomor_Tele": "031-5924170",
         "Latitude": -7.2735001,
-        "Longtitude": 112.7949944,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.7265,
         "F13": 6356864.79499,
         "DDLat": "07.27350S",
-        "DDLon": "112.79499E"
+        "DDLon": "112.79499E",
+        "Nama": "Kantor Pos Sukolilo",
+        "Longitude": 112.7949944
       }
     },
     {
@@ -39,20 +39,20 @@
       },
       "properties": {
         "OID_": 2,
-        "Nama_Kanto": "Kantor Pos ITS",
         "Kode_Kanto": "60111B",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Komplek ITS Teknik Mesin No.175",
         "Nomor_Tele": "031-5911220",
         "Latitude": -7.2837616,
-        "Longtitude": 112.791975,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.71624,
         "F13": 6356864.79197,
         "DDLat": "07.28376S",
-        "DDLon": "112.79197E"
+        "DDLon": "112.79197E",
+        "Nama": "Kantor Pos ITS",
+        "Longitude": 112.791975
       }
     },
     {
@@ -66,20 +66,20 @@
       },
       "properties": {
         "OID_": 3,
-        "Nama_Kanto": "Kantor Pos Kampus UNAIR",
         "Kode_Kanto": "60115A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl Raya Mulyorejo No 154",
         "Nomor_Tele": "",
         "Latitude": -7.2634588,
-        "Longtitude": 112.7816076,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.73654,
         "F13": 6356864.78161,
         "DDLat": "07.26346S",
-        "DDLon": "112.78161E"
+        "DDLon": "112.78161E",
+        "Nama": "Kantor Pos Kampus UNAIR",
+        "Longitude": 112.7816076
       }
     },
     {
@@ -93,20 +93,20 @@
       },
       "properties": {
         "OID_": 4,
-        "Nama_Kanto": "Kantor Pos Kertajaya",
         "Kode_Kanto": "60116A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Kertajaya Indah Blok G/504",
         "Nomor_Tele": "031-5998648",
         "Latitude": -7.2804407,
-        "Longtitude": 112.7754263,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.71956,
         "F13": 6356864.77543,
         "DDLat": "07.28044S",
-        "DDLon": "112.77543E"
+        "DDLon": "112.77543E",
+        "Nama": "Kantor Pos Kertajaya",
+        "Longitude": 112.7754263
       }
     },
     {
@@ -120,20 +120,20 @@
       },
       "properties": {
         "OID_": 5,
-        "Nama_Kanto": "Kantor Pos ITATS",
         "Kode_Kanto": "60117A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Klampis Harapan",
         "Nomor_Tele": "031-5911220",
         "Latitude": -7.2910493,
-        "Longtitude": 112.7700391,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.70895,
         "F13": 6356864.77004,
         "DDLat": "07.29105S",
-        "DDLon": "112.77004E"
+        "DDLon": "112.77004E",
+        "Nama": "Kantor Pos ITATS",
+        "Longitude": 112.7700391
       }
     },
     {
@@ -147,20 +147,20 @@
       },
       "properties": {
         "OID_": 6,
-        "Nama_Kanto": "Kantor Pos Keputih",
         "Kode_Kanto": "60117A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl Arif Rahman Hakim",
         "Nomor_Tele": "",
         "Latitude": -7.2904242,
-        "Longtitude": 112.7848208,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.70958,
         "F13": 6356864.78482,
         "DDLat": "07.29042S",
-        "DDLon": "112.78482E"
+        "DDLon": "112.78482E",
+        "Nama": "Kantor Pos Keputih",
+        "Longitude": 112.7848208
       }
     },
     {
@@ -174,20 +174,20 @@
       },
       "properties": {
         "OID_": 7,
-        "Nama_Kanto": "Kantor Pos UNTAG",
         "Kode_Kanto": "60118A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Nginden Semolo",
         "Nomor_Tele": "031-5921777",
         "Latitude": -7.3000221,
-        "Longtitude": 112.7656936,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.69998,
         "F13": 6356864.76569,
         "DDLat": "07.30002S",
-        "DDLon": "112.76569E"
+        "DDLon": "112.76569E",
+        "Nama": "Kantor Pos UNTAG",
+        "Longitude": 112.7656936
       }
     },
     {
@@ -201,20 +201,20 @@
       },
       "properties": {
         "OID_": 8,
-        "Nama_Kanto": "Kantor Pos Kenjeran",
         "Kode_Kanto": "60121A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Tugiman 1",
         "Nomor_Tele": "031-3898218",
         "Latitude": -7.2909415,
-        "Longtitude": 112.7437741,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.70906,
         "F13": 6356864.74377,
         "DDLat": "07.29094S",
-        "DDLon": "112.74377E"
+        "DDLon": "112.74377E",
+        "Nama": "Kantor Pos Kenjeran",
+        "Longitude": 112.7437741
       }
     },
     {
@@ -228,20 +228,20 @@
       },
       "properties": {
         "OID_": 9,
-        "Nama_Kanto": "Kantor Pos Bulak",
         "Kode_Kanto": "60124A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jln. Kedung Cowek No. 327",
         "Nomor_Tele": "031-3522096",
         "Latitude": -7.2309858,
-        "Longtitude": 112.7697611,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.76901,
         "F13": 6356864.76976,
         "DDLat": "07.23099S",
-        "DDLon": "112.76976E"
+        "DDLon": "112.76976E",
+        "Nama": "Kantor Pos Bulak",
+        "Longitude": 112.7697611
       }
     },
     {
@@ -255,20 +255,20 @@
       },
       "properties": {
         "OID_": 10,
-        "Nama_Kanto": "Kantor Pos Universitas Airlangga",
         "Kode_Kanto": "60132A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Prof.Dr.Moestopo No. 47",
         "Nomor_Tele": "031-5048806",
         "Latitude": -7.2649365,
-        "Longtitude": 112.7558381,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.73506,
         "F13": 6356864.75584,
         "DDLat": "07.26494S",
-        "DDLon": "112.75584E"
+        "DDLon": "112.75584E",
+        "Nama": "Kantor Pos Universitas Airlangga",
+        "Longitude": 112.7558381
       }
     },
     {
@@ -282,20 +282,20 @@
       },
       "properties": {
         "OID_": 11,
-        "Nama_Kanto": "Kantor Pos Ketabang",
         "Kode_Kanto": "60136A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Kapasari No. 49",
         "Nomor_Tele": "031-3772683",
         "Latitude": -7.247797,
-        "Longtitude": 112.7465298,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.7522,
         "F13": 6356864.74653,
         "DDLat": "07.24780S",
-        "DDLon": "112.74653E"
+        "DDLon": "112.74653E",
+        "Nama": "Kantor Pos Ketabang",
+        "Longitude": 112.7465298
       }
     },
     {
@@ -309,20 +309,20 @@
       },
       "properties": {
         "OID_": 12,
-        "Nama_Kanto": "Kantor Pos Simokerto",
         "Kode_Kanto": "60142A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Tambakrejo 93",
         "Nomor_Tele": "031-3772687",
         "Latitude": -7.244751,
-        "Longtitude": 112.7565186,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.75525,
         "F13": 6356864.75652,
         "DDLat": "07.24475S",
-        "DDLon": "112.75652E"
+        "DDLon": "112.75652E",
+        "Nama": "Kantor Pos Simokerto",
+        "Longitude": 112.7565186
       }
     },
     {
@@ -336,20 +336,20 @@
       },
       "properties": {
         "OID_": 13,
-        "Nama_Kanto": "Kantor Pos Pabean Cantian",
         "Kode_Kanto": "60151A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. KH.Mansur 226",
         "Nomor_Tele": "031-3535677",
         "Latitude": -7.2283831,
-        "Longtitude": 112.7406683,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.77162,
         "F13": 6356864.74067,
         "DDLat": "07.22838S",
-        "DDLon": "112.74067E"
+        "DDLon": "112.74067E",
+        "Nama": "Kantor Pos Pabean Cantian",
+        "Longitude": 112.7406683
       }
     },
     {
@@ -363,20 +363,20 @@
       },
       "properties": {
         "OID_": 14,
-        "Nama_Kanto": "Kantor Pos Sidotopo",
         "Kode_Kanto": "60154A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Wonosari Lor l/18",
         "Nomor_Tele": "031-3772695",
         "Latitude": -7.2283564,
-        "Longtitude": 112.7341022,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.77164,
         "F13": 6356864.7341,
         "DDLat": "07.22836S",
-        "DDLon": "112.73410E"
+        "DDLon": "112.73410E",
+        "Nama": "Kantor Pos Sidotopo",
+        "Longitude": 112.7341022
       }
     },
     {
@@ -390,20 +390,20 @@
       },
       "properties": {
         "OID_": 15,
-        "Nama_Kanto": "Kantor Pos Tanjung Perak",
         "Kode_Kanto": "60165A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Perak Barat 321-323",
         "Nomor_Tele": "031-3291744",
         "Latitude": -7.2121638,
-        "Longtitude": 112.7313881,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.78784,
         "F13": 6356864.73139,
         "DDLat": "07.21216S",
-        "DDLon": "112.73139E"
+        "DDLon": "112.73139E",
+        "Nama": "Kantor Pos Tanjung Perak",
+        "Longitude": 112.7313881
       }
     },
     {
@@ -417,20 +417,20 @@
       },
       "properties": {
         "OID_": 16,
-        "Nama_Kanto": "Kantor Pos Jalan Demak",
         "Kode_Kanto": "60173A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Demak No. 115",
         "Nomor_Tele": "031-5466834",
         "Latitude": -7.2440233,
-        "Longtitude": 112.7156451,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.75598,
         "F13": 6356864.71565,
         "DDLat": "07.24402S",
-        "DDLon": "112.71565E"
+        "DDLon": "112.71565E",
+        "Nama": "Kantor Pos Jalan Demak",
+        "Longitude": 112.7156451
       }
     },
     {
@@ -444,20 +444,20 @@
       },
       "properties": {
         "OID_": 17,
-        "Nama_Kanto": "Kantor Pos Krembangan",
         "Kode_Kanto": "60175A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Krembangan Barat No. 73",
         "Nomor_Tele": "031-3545601",
         "Latitude": -7.2439698,
-        "Longtitude": 112.7025128,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.75603,
         "F13": 6356864.70251,
         "DDLat": "07.24397S",
-        "DDLon": "112.70251E"
+        "DDLon": "112.70251E",
+        "Nama": "Kantor Pos Krembangan",
+        "Longitude": 112.7025128
       }
     },
     {
@@ -471,20 +471,20 @@
       },
       "properties": {
         "OID_": 18,
-        "Nama_Kanto": "Kantor Pos Tambak Langon",
         "Kode_Kanto": "60184A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl Tambak Langon",
         "Nomor_Tele": "",
         "Latitude": -7.2262208,
-        "Longtitude": 112.6635337,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.77378,
         "F13": 6356864.66353,
         "DDLat": "07.22622S",
-        "DDLon": "112.66353E"
+        "DDLon": "112.66353E",
+        "Nama": "Kantor Pos Tambak Langon",
+        "Longitude": 112.6635337
       }
     },
     {
@@ -498,20 +498,20 @@
       },
       "properties": {
         "OID_": 19,
-        "Nama_Kanto": "Kantor Pos Tandes",
         "Kode_Kanto": "60186A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Bibis Tandes No. 27",
         "Nomor_Tele": "031-7401075",
         "Latitude": -7.2437512,
-        "Longtitude": 112.6499815,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.75625,
         "F13": 6356864.64998,
         "DDLat": "07.24375S",
-        "DDLon": "112.64998E"
+        "DDLon": "112.64998E",
+        "Nama": "Kantor Pos Tandes",
+        "Longitude": 112.6499815
       }
     },
     {
@@ -525,20 +525,20 @@
       },
       "properties": {
         "OID_": 20,
-        "Nama_Kanto": "Kantor Pos Sukomanunggal",
         "Kode_Kanto": "60188A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl Sukomanunggal",
         "Nomor_Tele": "",
         "Latitude": -7.2701104,
-        "Longtitude": 112.6951495,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.72989,
         "F13": 6356864.69515,
         "DDLat": "07.27011S",
-        "DDLon": "112.69515E"
+        "DDLon": "112.69515E",
+        "Nama": "Kantor Pos Sukomanunggal",
+        "Longitude": 112.6951495
       }
     },
     {
@@ -552,20 +552,20 @@
       },
       "properties": {
         "OID_": 21,
-        "Nama_Kanto": "Kantor Pos Pakal",
         "Kode_Kanto": "60192A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl Raya Kendung 10 RT 07 RW 02",
         "Nomor_Tele": "",
         "Latitude": -7.2421144,
-        "Longtitude": 112.6178767,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.75789,
         "F13": 6356864.61788,
         "DDLat": "07.24211S",
-        "DDLon": "112.61788E"
+        "DDLon": "112.61788E",
+        "Nama": "Kantor Pos Pakal",
+        "Longitude": 112.6178767
       }
     },
     {
@@ -579,20 +579,20 @@
       },
       "properties": {
         "OID_": 22,
-        "Nama_Kanto": "Kantor Pos Benowo",
         "Kode_Kanto": "60198A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Sememi Jaya Baru X",
         "Nomor_Tele": "031-7418300",
         "Latitude": -7.249606,
-        "Longtitude": 112.6396287,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.75039,
         "F13": 6356864.63963,
         "DDLat": "07.24961S",
-        "DDLon": "112.63963E"
+        "DDLon": "112.63963E",
+        "Nama": "Kantor Pos Benowo",
+        "Longitude": 112.6396287
       }
     },
     {
@@ -606,20 +606,20 @@
       },
       "properties": {
         "OID_": 23,
-        "Nama_Kanto": "Kantor Pos Lakar Santri",
         "Kode_Kanto": "60211A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl.Raya Lakar Santri 9",
         "Nomor_Tele": "",
         "Latitude": -7.303272,
-        "Longtitude": 112.6317303,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.69673,
         "F13": 6356864.63173,
         "DDLat": "07.30327S",
-        "DDLon": "112.63173E"
+        "DDLon": "112.63173E",
+        "Nama": "Kantor Pos Lakar Santri",
+        "Longitude": 112.6317303
       }
     },
     {
@@ -633,20 +633,20 @@
       },
       "properties": {
         "OID_": 24,
-        "Nama_Kanto": "Kantor Pos Kedurus",
         "Kode_Kanto": "60223A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Perum Gunungsari Indah No.33",
         "Nomor_Tele": "",
         "Latitude": -7.317335,
-        "Longtitude": 112.7004837,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.68266,
         "F13": 6356864.70048,
         "DDLat": "07.31733S",
-        "DDLon": "112.70048E"
+        "DDLon": "112.70048E",
+        "Nama": "Kantor Pos Kedurus",
+        "Longitude": 112.7004837
       }
     },
     {
@@ -660,20 +660,20 @@
       },
       "properties": {
         "OID_": 25,
-        "Nama_Kanto": "Kantor Pos Dukuh Kupang",
         "Kode_Kanto": "60225A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl.Dukuhkupang Indah 8 No.22",
         "Nomor_Tele": "031-7329620",
         "Latitude": -7.2791951,
-        "Longtitude": 112.7052929,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.7208,
         "F13": 6356864.70529,
         "DDLat": "07.27920S",
-        "DDLon": "112.70529E"
+        "DDLon": "112.70529E",
+        "Nama": "Kantor Pos Dukuh Kupang",
+        "Longitude": 112.7052929
       }
     },
     {
@@ -687,20 +687,20 @@
       },
       "properties": {
         "OID_": 26,
-        "Nama_Kanto": "Kantor Pos Dukuh Kupang Barat",
         "Kode_Kanto": "60225A2",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl.Dukuhkupang Barat Komp UWK",
         "Nomor_Tele": "031-5671056",
         "Latitude": -7.3172379,
-        "Longtitude": 112.6698414,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.68276,
         "F13": 6356864.66984,
         "DDLat": "07.31724S",
-        "DDLon": "112.66984E"
+        "DDLon": "112.66984E",
+        "Nama": "Kantor Pos Dukuh Kupang Barat",
+        "Longitude": 112.6698414
       }
     },
     {
@@ -714,20 +714,20 @@
       },
       "properties": {
         "OID_": 27,
-        "Nama_Kanto": "Kantor Pos Dukuh Pakis",
         "Kode_Kanto": "60225A3",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Dukuh Pakis No.9C",
         "Nomor_Tele": "031-5680336",
         "Latitude": -7.2941737,
-        "Longtitude": 112.7074056,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.70583,
         "F13": 6356864.70741,
         "DDLat": "07.29417S",
-        "DDLon": "112.70741E"
+        "DDLon": "112.70741E",
+        "Nama": "Kantor Pos Dukuh Pakis",
+        "Longitude": 112.7074056
       }
     },
     {
@@ -741,20 +741,20 @@
       },
       "properties": {
         "OID_": 28,
-        "Nama_Kanto": "Kantor Pos UNESA",
         "Kode_Kanto": "60231A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl.Ketintang Komp UNESA",
         "Nomor_Tele": "",
         "Latitude": -7.3154082,
-        "Longtitude": 112.7279211,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.68459,
         "F13": 6356864.72792,
         "DDLat": "07.31541S",
-        "DDLon": "112.72792E"
+        "DDLon": "112.72792E",
+        "Nama": "Kantor Pos UNESA",
+        "Longitude": 112.7279211
       }
     },
     {
@@ -768,20 +768,20 @@
       },
       "properties": {
         "OID_": 29,
-        "Nama_Kanto": "Kantor Pos Wonocolo",
         "Kode_Kanto": "60231A2",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Gayungsari Barat III No.1",
         "Nomor_Tele": "031-8284147",
         "Latitude": -7.3285912,
-        "Longtitude": 112.7213561,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.67141,
         "F13": 6356864.72136,
         "DDLat": "07.32859S",
-        "DDLon": "112.72136E"
+        "DDLon": "112.72136E",
+        "Nama": "Kantor Pos Wonocolo",
+        "Longitude": 112.7213561
       }
     },
     {
@@ -795,20 +795,20 @@
       },
       "properties": {
         "OID_": 30,
-        "Nama_Kanto": "Kantor Pos Karah",
         "Kode_Kanto": "60232A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl.Bibis Karah No.59",
         "Nomor_Tele": "031-8298544",
         "Latitude": -7.328543,
-        "Longtitude": 112.7060352,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.67146,
         "F13": 6356864.70604,
         "DDLat": "07.32854S",
-        "DDLon": "112.70604E"
+        "DDLon": "112.70604E",
+        "Nama": "Kantor Pos Karah",
+        "Longitude": 112.7060352
       }
     },
     {
@@ -822,20 +822,20 @@
       },
       "properties": {
         "OID_": 31,
-        "Nama_Kanto": "Kantor Pos Petra",
         "Kode_Kanto": "60236A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Wisma Lidah Kulon Blok A/14",
         "Nomor_Tele": "031-7531991",
         "Latitude": -7.3084408,
-        "Longtitude": 112.6530786,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.69156,
         "F13": 6356864.65308,
         "DDLat": "07.30844S",
-        "DDLon": "112.65308E"
+        "DDLon": "112.65308E",
+        "Nama": "Kantor Pos Petra",
+        "Longitude": 112.6530786
       }
     },
     {
@@ -849,20 +849,20 @@
       },
       "properties": {
         "OID_": 32,
-        "Nama_Kanto": "Kantor Pos Wonokromo",
         "Kode_Kanto": "60244A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl.Bendul Merisi No.10",
         "Nomor_Tele": "031-8417082",
         "Latitude": -7.2935969,
-        "Longtitude": 112.7166082,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.7064,
         "F13": 6356864.71661,
         "DDLat": "07.29360S",
-        "DDLon": "112.71661E"
+        "DDLon": "112.71661E",
+        "Nama": "Kantor Pos Wonokromo",
+        "Longitude": 112.7166082
       }
     },
     {
@@ -876,20 +876,20 @@
       },
       "properties": {
         "OID_": 33,
-        "Nama_Kanto": "Kantor Pos Patemon",
         "Kode_Kanto": "60251A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl Patemon Kali No 39",
         "Nomor_Tele": "",
         "Latitude": -7.2624277,
-        "Longtitude": 112.7174639,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.73757,
         "F13": 6356864.71746,
         "DDLat": "07.26243S",
-        "DDLon": "112.71746E"
+        "DDLon": "112.71746E",
+        "Nama": "Kantor Pos Patemon",
+        "Longitude": 112.7174639
       }
     },
     {
@@ -903,20 +903,20 @@
       },
       "properties": {
         "OID_": 34,
-        "Nama_Kanto": "Kantor Pos Sawahan",
         "Kode_Kanto": "60252A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Simogunung Timur -Tol",
         "Nomor_Tele": "031-5675587",
         "Latitude": -7.262385,
-        "Longtitude": 112.7174639,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.73762,
         "F13": 6356864.71746,
         "DDLat": "07.26239S",
-        "DDLon": "112.71746E"
+        "DDLon": "112.71746E",
+        "Nama": "Kantor Pos Sawahan",
+        "Longitude": 112.7174639
       }
     },
     {
@@ -930,20 +930,20 @@
       },
       "properties": {
         "OID_": 35,
-        "Nama_Kanto": "Kantor Pos Darmo",
         "Kode_Kanto": "60264A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Monginsidi 11",
         "Nomor_Tele": "031-5676915",
         "Latitude": -7.2622771,
-        "Longtitude": 112.691199,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.73772,
         "F13": 6356864.6912,
         "DDLat": "07.26228S",
-        "DDLon": "112.69120E"
+        "DDLon": "112.69120E",
+        "Nama": "Kantor Pos Darmo",
+        "Longitude": 112.691199
       }
     },
     {
@@ -957,20 +957,20 @@
       },
       "properties": {
         "OID_": 36,
-        "Nama_Kanto": "Kantor Pos Simpang",
         "Kode_Kanto": "60271A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Taman Apsari No. 1",
         "Nomor_Tele": "031-5342327",
         "Latitude": -7.2639566,
-        "Longtitude": 112.7411609,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.73604,
         "F13": 6356864.74116,
         "DDLat": "07.26396S",
-        "DDLon": "112.74116E"
+        "DDLon": "112.74116E",
+        "Nama": "Kantor Pos Simpang",
+        "Longitude": 112.7411609
       }
     },
     {
@@ -984,20 +984,20 @@
       },
       "properties": {
         "OID_": 37,
-        "Nama_Kanto": "Kantor Pos Gubeng",
         "Kode_Kanto": "60281A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Jawa No. 42",
         "Nomor_Tele": "031-5012767",
         "Latitude": -7.2739794,
-        "Longtitude": 112.7483994,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.72602,
         "F13": 6356864.7484,
         "DDLat": "07.27398S",
-        "DDLon": "112.74840E"
+        "DDLon": "112.74840E",
+        "Nama": "Kantor Pos Gubeng",
+        "Longitude": 112.7483994
       }
     },
     {
@@ -1011,20 +1011,20 @@
       },
       "properties": {
         "OID_": 38,
-        "Nama_Kanto": "Kantor Pos Baratajaya",
         "Kode_Kanto": "60284A",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Nginden Kota No. 1",
         "Nomor_Tele": "031-5048636",
         "Latitude": -7.29868,
-        "Longtitude": 112.7582633,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.70132,
         "F13": 6356864.75826,
         "DDLat": "07.29868S",
-        "DDLon": "112.75826E"
+        "DDLon": "112.75826E",
+        "Nama": "Kantor Pos Baratajaya",
+        "Longitude": 112.7582633
       }
     },
     {
@@ -1038,20 +1038,20 @@
       },
       "properties": {
         "OID_": 39,
-        "Nama_Kanto": "Kantor Pos Ngagel Jaya",
         "Kode_Kanto": "60284B",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl. Pucang Sewu No. 1",
         "Nomor_Tele": "031-5048637",
         "Latitude": -7.2837157,
-        "Longtitude": 112.753772,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.71628,
         "F13": 6356864.75377,
         "DDLat": "07.28372S",
-        "DDLon": "112.75377E"
+        "DDLon": "112.75377E",
+        "Nama": "Kantor Pos Ngagel Jaya",
+        "Longitude": 112.753772
       }
     },
     {
@@ -1065,20 +1065,20 @@
       },
       "properties": {
         "OID_": 40,
-        "Nama_Kanto": "Kantor Pos Rungkut",
         "Kode_Kanto": "60293A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl.Puskesmas No.15",
         "Nomor_Tele": "",
         "Latitude": -7.2836239,
-        "Longtitude": 112.720941,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.71638,
         "F13": 6356864.72094,
         "DDLat": "07.28362S",
-        "DDLon": "112.72094E"
+        "DDLon": "112.72094E",
+        "Nama": "Kantor Pos Rungkut",
+        "Longitude": 112.720941
       }
     },
     {
@@ -1092,20 +1092,20 @@
       },
       "properties": {
         "OID_": 41,
-        "Nama_Kanto": "Kantor Pos Wonorejo",
         "Kode_Kanto": "60296A1",
         "Regional": "REGIONAL VII SURABAYA, 60004",
         "Kprk": "SURABAYA, 60000",
         "Alamat": "Jl.Raya Pandugo No. 109",
         "Nomor_Tele": "",
         "Latitude": -7.2834509,
-        "Longtitude": 112.720941,
         "F10": 6378137.0,
         "F11": 6356752.0,
         "F12": 6378129.71655,
         "F13": 6356864.72094,
         "DDLat": "07.28345S",
-        "DDLon": "112.72094E"
+        "DDLon": "112.72094E",
+        "Nama": "Kantor Pos Wonorejo",
+        "Longitude": 112.720941
       }
     }
   ]
