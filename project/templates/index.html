@@ -7,13 +7,27 @@
         <div class="columns">
             <div class="column is-one-quarter">
                 <div class="box">
-                    <h1 class="subtitle">Layers</h1>
-                    <hr> {% for geo in geojson %}
-                    <button class="button is-light" id="{{ geo }}" onclick="renderGeoData('{{geo}}')" style="margin-bottom: 0.5em;">{{ geo }}</button>
-                    {% endfor %}
-                    <hr> {% for defgeo in default %}
-                    <button class="button is-light" id="{{ defgeo }}" onclick="renderGeoData('{{defgeo}}')" style="margin-bottom: 0.5em;">{{ defgeo }}</button>
-                    {% endfor %}
+                    <nav class="level is-mobile">
+                        <div class="level-left">
+                            <div class="level-item">
+                                <h1 class="subtitle">Layers</h1>
+                            </div>
+                        </div>
+                        <div class="level-right">
+                            <div class="level-item">
+                                <button class="button" id="minimize">&#9472;</button>
+                            </div>
+                        </div>
+                    </nav>
+                    <hr>
+                    <div id="layers">
+                        {% for geo in geojson %}
+                        <button class="button is-light" id="{{ geo }}" onclick="renderGeoData('{{geo}}')" style="margin-bottom: 0.5em;">{{ geo }}</button>
+                        {% endfor %}
+                        <hr> {% for defgeo in default %}
+                        <button class="button is-light" id="{{ defgeo }}" onclick="renderGeoData('{{defgeo}}')" style="margin-bottom: 0.5em;">{{ defgeo }}</button>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
             <div class="column">
@@ -24,6 +38,18 @@
 </section>
 
 <script src="{{url_for('static', filename='js/index.js')}}"></script>
+<script>
+    $('#minimize').click(() => {
+        if ($('#layers').css('display') == "block") {
+            $('#minimize').html('+');
+        }
+        else {
+            $('#minimize').html('-');
+        }
+
+        $('#layers').fadeToggle();
+    });
+</script>
 
 <!-- end yield content -->
 {% endblock %}

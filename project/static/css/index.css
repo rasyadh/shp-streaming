@@ -2,3 +2,7 @@
     height: 550px;
      width: 100%;
 }
+
+.table__wrapper {
+    overflow-x: auto;
+}
