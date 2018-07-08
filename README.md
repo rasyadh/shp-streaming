@@ -1,7 +1,7 @@
 # SHP Streaming<br>
-Shapefile Streaming Surabaya.<br>
+Shapefiles Streaming Surabaya.<br>
 
-![PostOfficeSub Map](https://raw.githubusercontent.com/rasyadh/postofficesub-map/master/project/static/Kantor%20Pos%20Surabaya.png)
+![PostOfficeSub Map](https://raw.githubusercontent.com/rasyadh/postofficesub-map/master/project/static/ShapefilesStreamingSurabaya.png)
 
 ## Description
 this app is used to show some particular location in Surabaya. The map technology used in this application uses a leaflet map. Using GeoJSON data to represent objects on maps obtained from Shapefile conversion results.
