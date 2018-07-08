@@ -1,0 +1,26 @@
+<!-- yield content -->
+{% extends '/base.html' %} {% block content %}
+
+<!-- Content -->
+<section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-quarter">
+                <div class="box">
+                    <h1 class="subtitle">Layers</h1>
+                    <hr> {% for geo in geojson %}
+                    <button class="button is-light" id="{{ geo }}" onclick="renderGeoData('{{geo}}')" style="margin-bottom: 0.5em;">{{ geo }}</button>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="column">
+                <div class="box" id="llmap"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="{{url_for('static', filename='js/index.js')}}"></script>
+
+<!-- end yield content -->
+{% endblock %}

@@ -1,0 +1,53 @@
+<!-- yield content -->
+{% extends '/base.html' %} {% block content %}
+
+<!-- Content -->
+<section class="section">
+    <div class="container">
+        <h1 class="title">Data Peta</h1>
+        <table class="table is-fullwidth">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Nama Data</th>
+                    <th>Konversi Shp ke GeoJSON</th>
+                    <th>GeoJSON</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for res in result %}
+                <tr>
+                    <td>{{ result.index(res) + 1 }}</td>
+                    <td>{{ res.shp }}</td>
+                    {% if res.geojson %}
+                    <td>
+                        <a class="button is-info" disabled>Konversi</a>
+                    </td>
+                    <td>
+                        <button class="button is-info" onclick="showGeoJSON('{{ res.geojson }}')">Tampilkan GeoJSON</a>
+                    </td>
+                    {% else %}
+                    <td>
+                        <a class="button is-info" href="/data_peta/konversi_shp_geojson/{{ res.shp }}">Konversi</button>
+                    </td>
+                    <td>
+                        <button class="button is-info" disabled>Tampilkan GeoJSON</button>
+                    </td>
+                    {% endif %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<script>
+    $(() => {
+        showGeoJSON = ((geojson) => {
+            window.open('/data_peta/' + geojson, '_blank');
+        });
+    });
+</script>
+
+<!-- end yield content -->
+{% endblock %}
